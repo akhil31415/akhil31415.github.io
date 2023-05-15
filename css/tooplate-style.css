@@ -523,6 +523,7 @@ figure.effect-bubba img {
     opacity: 0.7;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;   
+	height: auto;
 }
 
 figure.effect-bubba p {
@@ -856,7 +857,8 @@ figure.effect-bubba:hover p {
 		width: 160px;
 		height: 110px;
 	}
-	.cd-slider-nav a.navbar-brand { font-size: 3.5rem; }
+	.cd-slider-nav a.navbar-brand { font-size: 3.5rem; 
+	width: 20%;}
 
 	.tm-brand-icon { 
 		font-size: 4rem;
@@ -879,5 +881,5 @@ figure.effect-bubba:hover p {
 }
 
 @media only screen and (min-width: 330px) and (max-width: 420px) {
-	.cd-slider-nav a.navbar-brand { font-size: 1.5rem; }
+	.cd-slider-nav a.navbar-brand { font-size: 1rem; width: 30%;}
 }
