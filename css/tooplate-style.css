@@ -136,44 +136,44 @@ button:focus { outline: none; }
 }
 
 /* Background & menu colors */
-.cd-hero-slider li:nth-of-type(1) { background-color: rgba(68, 127, 202, 0.62); }
-.cd-hero-slider li:nth-of-type(2) { background-color: rgba(68, 127, 202, 0.62); }
-.cd-hero-slider li:nth-of-type(3) { background-color: rgba(68, 127, 202, 0.62); }
-.cd-hero-slider li:nth-of-type(4) { background-color: rgba(68, 127, 202, 0.62); }
-.cd-hero-slider li:nth-of-type(5) { background-color: rgba(68, 127, 202, 0.62); }
+.cd-hero-slider li:nth-of-type(1) { background-color: rgba(220, 220, 220, 0.987); }
+.cd-hero-slider li:nth-of-type(2) { background-color: rgba(220, 220, 220, 0.987); }
+.cd-hero-slider li:nth-of-type(3) { background-color: rgba(220, 220, 220, 0.987); }
+.cd-hero-slider li:nth-of-type(4) { background-color: rgba(220, 220, 220, 0.987); }
+.cd-hero-slider li:nth-of-type(5) { background-color: rgba(220, 220, 220, 0.987); }
 
 .cd-slider-nav .nav-item:nth-of-type(1).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:focus {	
-	background-color: #447fca;
+	background-color: #2a2c2d;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(2).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:focus {
 			
-	background-color: #447fca;
+	background-color: #2a2c2d;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(3).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(3) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(3) .nav-link:focus {
 		
-	background-color: #447fca;	
+	background-color: #2a2c2d;	
 }
 
 .cd-slider-nav .nav-item:nth-of-type(4).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(4) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(4) .nav-link:focus {
 	
-	background-color: #447fca;
+	background-color: #2a2c2d;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(5).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(5) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(5) .nav-link:focus {
 	
-	background-color: #447fca;		
+	background-color: #2a2c2d;		
 }
 
 .tm-bg-white-translucent { background-color: rgba(255,255,255,0.8); }
@@ -258,6 +258,14 @@ button:focus { outline: none; }
 }
 
 .tm-contact-container { max-width: 1150px; }
+
+.contact-qr {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  align-items: center;
+  padding: 15;
+}
 
 .form-control,
 .tm-submit-btn {
@@ -503,7 +511,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 }
 
 figure.effect-bubba {
-    background-color: #9e5406;
+    background-color: #b085e0;
 }
 
 .cd-hero-slider .selected .cd-full-width figure.effect-bubba h2.tm-figure-title {
