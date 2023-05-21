@@ -260,11 +260,10 @@ button:focus { outline: none; }
 .tm-contact-container { max-width: 1150px; }
 
 .contact-qr {
-  width: 40%;
+  width: 49%;
   height: auto;
   object-fit: cover;
   align-items: center;
-  padding: 15;
 }
 
 .form-control,
