@@ -12,20 +12,15 @@
     <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">                
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">     
-    <!--- Fancybox slider -->
-    <link rel="stylesheet" href="js/jquery.fancybox.min.css">                                 
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                    
     <!-- Bootstrap style -->
     <link rel="stylesheet" href="css/hero-slider-style.css">                              
     <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
     <link rel="stylesheet" href="css/magnific-popup.css">                                 
     <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
     <link rel="stylesheet" href="css/tooplate-style.css">   
-    
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.13/dist/fancybox/fancybox.css"
-    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +40,7 @@
                 <nav class="navbar">
                     <div class="tm-navbar-bg">
                         
-                        <a class="navbar-brand text-uppercase" href="#"><i class="fa tm-brand-icon"></i><img src="img/Icon_logo/logo_light.png"></a>
+                        <a class="navbar-brand text-uppercase" href="index.html"><i class="fa tm-brand-icon"></i><img src="img/Icon_logo/logo_light.png"></a>
 
                         <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
                             &#9776;
@@ -78,80 +73,20 @@
                 <li class="selected">                    
                     <div class="cd-full-width">
                         <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
-                            <div class="tm-img-gallery-container">
-                                <div class="tm-img-gallery gallery-one">
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <a href="img/CHURI RESIDENCE/1.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/4.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
-                                                <a href="img/KHEMANI RESIDENCE/4.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <a href="img/KP RESIDENCE 7TH/1.jpg">View more</a>
-                                            </figcaption>           
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/MAHATRE RESIDENCE 5TH/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/1.jpg">View more</a>
-                                            </figcaption>           
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <a href="img/PHATAK RESIDENCE/1.jpg">View more</a>
-                                            </figcaption>           
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/1.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <a href="img/WADA/1.jpg">View more</a>
-                                            </figcaption>           
-                                        </figure>
-                                    </div>
-                                </div>                                 
-                            </div>
+        
+                              <div class="tm-img-gallery-container">
+                                    <swiper-container class="mySwiper" navigation="true"
+                                        slides-per-view="4">
+                                        <swiper-slide><img src="img/CHURI RESIDENCE/1.jpg"></swiper-slide>
+                                        <swiper-slide><img src="img/CHURI RESIDENCE/2.JPG"></swiper-slide>
+                                        <swiper-slide><img src="img/CHURI RESIDENCE/3.JPG"></swiper-slide>
+                                        <swiper-slide><img src="img/CHURI RESIDENCE/4.JPG"></swiper-slide>
+                                        <swiper-slide><img src="img/CHURI RESIDENCE/5.JPG"></swiper-slide>
+                                        <swiper-slide><img src="img/CHURI RESIDENCE/6.JPG"></swiper-slide>
+                                    </swiper-container>
+                             </div> 
+
+                                  
                         </div>                                                    
                     </div>                    
                 </li>
@@ -346,13 +281,20 @@
                                     <div class="tm-flex">
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding">
                                             <h2 class="tm-text-title">About our team</h2>
-                                            <p class="tm-text">Quisque efficitur dui id turpis cursus, quis faucibus nulla malesuada. Nulla consectetur eget quam id pulvinar. Nulla facilisi. Curabitur rhoncus lacinia tincidunt. Etiam velit dui, rutrum vel finibus ac, commodo at mauris. Donec vitae diam ac tellus consectetur interdum eu non odio.</p>
+                                            <p class="tm-text">Welcome to pendse yash architecture and design!</p>
+                                            <p class="tm-text">We are a premier interior design, remodeling, and renovation company dedicated to transforming homes, farmhouses, and offices into captivating spaces that reflect our clients' unique style and vision. With years of experience in the industry, we have built a solid reputation for delivering exceptional craftsmanship and creating inspiring environments.</p>
+                                            <p>At pendse yash architecture and design, we understand that your space is more than just bricks and mortar. It's where memories are made, ideas are born, and dreams come to life. Our passionate team of architects, designers, and craftsmen collaborate closely with you to understand your aspirations and bring your vision to reality. Whether it's a complete home renovation, a farmhouse makeover, or an office revamp, we are committed to delivering unparalleled quality and exceeding your expectations.</p>
+                                            <p>What sets us apart is our unwavering dedication to craftsmanship and attention to detail. We believe that every corner, every texture, and every element contributes to the overall ambiance of a space. From selecting the finest materials to incorporating innovative design solutions, we strive for perfection in every project we undertake. Our skilled professionals take pride in their work and go the extra mile to ensure that every aspect of your project is executed with precision and finesse.</p>
+                                            <p>Client satisfaction is at the heart of everything we do. We believe in open communication and collaboration, working closely with you at every step of the journey. Your input, ideas, and feedback are invaluable to us as we aim to create a space that truly reflects your personality and fulfills your needs. We treat every project as a unique opportunity to create something extraordinary, tailoring our services to your specific requirements.</p>
+                                            <p>We invite you to explore our portfolio, showcasing our diverse range of successful projects and the transformational impact we have made on countless spaces. Whether you're seeking modern elegance, rustic charm, or a blend of different styles, we have the expertise and creativity to bring your vision to life.</p>
+                                            <p>Thank you for considering pendse yash architecture and design for your interior design, remodeling, and renovation needs. We look forward to partnering with you to create the space of your dreams.</p>
+                                            <p>Get in touch with us today and let's embark on a journey of transforming your space into something truly remarkable!</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             
-                            <div class="row tm-white-box-margin-b">
+                            <!-- <div class="row tm-white-box-margin-b">
                                 <div class="col-xs-12">
                                     <div class="tm-flex">
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
@@ -384,7 +326,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>                        
+                            </div>                         -->
                         </div>              
                     </div> <!-- .cd-full-width -->
 
@@ -477,17 +419,7 @@
         <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
         <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
         <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
-        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
-        
-        <script>  
-            $('[data-fancybox]').fancybox({
-                thumbs : {
-                    autoStart : true,
-                    axis: "y"
-                },
-                loop: false,
-            });
-        </script>
+        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) --> 
         <script>
 
             function adjustHeightOfPage(pageNo) {
