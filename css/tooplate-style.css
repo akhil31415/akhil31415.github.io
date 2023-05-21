@@ -507,10 +507,13 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
     position: relative;
     overflow: hidden;
     text-align: center;
+	height: 480px;
 }
 
 figure.effect-bubba {
     background-color: #ffffff;
+	display: flex;
+	align-items: center;
 }
 
 .cd-hero-slider .selected .cd-full-width figure.effect-bubba h2.tm-figure-title {
@@ -609,6 +612,7 @@ figure.effect-bubba:hover p {
     display: block;
     max-width: 100%;
     opacity: 0.8;
+	object-fit: contain;
 }
 
 .cd-hero-slider h2 { font-size: 1.5em; }
@@ -907,6 +911,7 @@ swiper-slide {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 480px;
   }
 
 swiper-slide img {
