@@ -20,6 +20,11 @@
     <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
     <link rel="stylesheet" href="css/tooplate-style.css">   
 
+    <link rel="stylesheet" href="css/custom.min.css">
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -40,7 +45,7 @@
                 <nav class="navbar">
                     <div class="tm-navbar-bg">
                         
-                        <a class="navbar-brand text-uppercase" href="index.html"><i class="fa tm-brand-icon"></i><img src="img/Icon_logo/logo_light.png"></a>
+                        <a class="navbar-brand text-uppercase" href="index.html"><i class="fa tm-brand-icon"></i><img src="img/Icon_logo/white_on_black_logo.jpeg"></a>
 
                         <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
                             &#9776;
@@ -51,14 +56,14 @@
                                     <a class="nav-link" href="#0" data-no="1">Home<span class="sr-only">(current)</span></a>
                                 </li>                               
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#0" data-no="2">Our Work</a>
+                                    <a class="nav-link" href="#0" data-no="2">Work</a>
                                 </li>
                                 <li></li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#0" data-no="4">About Us</a>
+                                    <a class="nav-link" href="#0" data-no="4">About PYAD</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#0" data-no="5">Keep in touch</a>
+                                    <a class="nav-link" href="#0" data-no="5">Contact Us</a>
                                 </li>
                             </ul>
                         </div>                        
@@ -77,12 +82,12 @@
                               <div class="tm-img-gallery-container">
                                     <swiper-container class="mySwiper" navigation="true"
                                         slides-per-view="4">
-                                        <swiper-slide><img src="img/CHURI RESIDENCE/1.jpg"></swiper-slide>
-                                        <swiper-slide><img src="img/KHEMANI RESIDENCE/1.jpg"></swiper-slide>
-                                        <swiper-slide><img src="img/KP RESIDENCE 7TH/1.jpg"></swiper-slide>
-                                        <swiper-slide><img src="img/PHATAK RESIDENCE 9TH/1.jpg"></swiper-slide>
-                                        <swiper-slide><img src="img/PHANSE RESIDENCE/1.jpg"></swiper-slide>
-                                        <swiper-slide><img src="img/MAHATRE RESIDENCE 5TH/1.jpg"></swiper-slide>
+                                        <swiper-slide><img src="img/CHURI_RESIDENCE/1.jpg"></swiper-slide>
+                                        <swiper-slide><img src="img/KHEMANI_RESIDENCE/1.jpg"></swiper-slide>
+                                        <swiper-slide><img src="img/KP_RESIDENCE_7TH/1.jpg"></swiper-slide>
+                                        <swiper-slide><img src="img/PHATAK_RESIDENCE_9TH/1.jpg"></swiper-slide>
+                                        <swiper-slide><img src="img/PHANSE_RESIDENCE/1.jpg"></swiper-slide>
+                                        <swiper-slide><img src="img/MAHATRE_RESIDENCE_5TH/1.jpg"></swiper-slide>
                                         <swiper-slide><img src="img/WADA/1.jpg"></swiper-slide>
                                     </swiper-container>
                              </div> 
@@ -99,855 +104,518 @@
                                 <div class="tm-img-gallery gallery-two">
                                     <!-- Gallery Two pop up connected with JS code below -->
                                     <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KHEMANI RESIDENCE/1.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
+                                        <div class="work-card">
+                                            <img src="img/CHURI_RESIDENCE/6.jpg" 
+                                                alt="pendse yash architechture + design">
+                                                <a href="img/CHURI_RESIDENCE/6.jpg" 
+                                                    title="zoom" 
+                                                    data-thumb="img/CHURI_RESIDENCE/6.jpg"
+                                                    data-caption="A door-way to your dream day"
+                                                    data-fancybox="CHURI-RESIDENCE">
+                                                    <div class="work-card-overlay">
+                                                        <h3 class="work-card-title">TITLE</h3>
+                                                        <h4>The Churi Residence</h4>
+                                                        <h3 class="work-card-title">CATEGORY</h3>
+                                                        <h4>Residential</h4>
+                                                        <h3 class="work-card-title">LOCATION</h3>
+                                                        <h4>Mumbai</h4>
+                                                        <h3 class="work-card-title">STYLE</h3>
+                                                        <h4>Contemporary</h4>
+                                                    </div>
+                                                </a>
+                                                <a href="img/CHURI_RESIDENCE/2.jpg" 
+                                                    data-thumb="img/CHURI_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="CHURI-RESIDENCE">
+                                                </a>
+                                                <a href="img/CHURI_RESIDENCE/3.jpg"
+                                                    data-thumb="img/CHURI_RESIDENCE/3.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="CHURI-RESIDENCE">
+                                                </a>
+                                                <a href="img/CHURI_RESIDENCE/4.jpg" 
+                                                    data-thumb="img/CHURI_RESIDENCE/4.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="CHURI-RESIDENCE">
+                                                </a>
+                                                <a href="img/CHURI_RESIDENCE/5.jpg" 
+                                                    data-thumb="img/CHURI_RESIDENCE/5.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="CHURI-RESIDENCE">
+                                                </a>
+                                                <a href="img/CHURI_RESIDENCE/1.jpg" 
+                                                    data-thumb="img/CHURI_RESIDENCE/1.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="CHURI-RESIDENCE">
+                                                </a>
+                                               
+                                        </div>
                                     </div>
                                     <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/2.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KHEMANI RESIDENCE/2.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
+                                        <div class="work-card">
+                                            <img src="img/KHEMANI_RESIDENCE/1.jpg" 
+                                                alt="pendse yash architechture + design">
+                                                <a href="img/KHEMANI_RESIDENCE/1.jpg" 
+                                                    title="zoom" 
+                                                    data-thumb="img/KHEMANI_RESIDENCE/1.jpg"
+                                                    data-caption="A door-way to your dream day"
+                                                    data-fancybox="KHEMANI-RESIDENCE">
+                                                    <div class="work-card-overlay">
+                                                        <h3 class="work-card-title">TITLE</h3>
+                                                        <h4>The Khemani Residence</h4>
+                                                        <h3 class="work-card-title">CATEGORY</h3>
+                                                        <h4>Residential</h4>
+                                                        <h3 class="work-card-title">LOCATION</h3>
+                                                        <h4>Mumbai</h4>
+                                                        <h3 class="work-card-title">STYLE</h3>
+                                                        <h4>Contemporary</h4>
+                                                    </div>
+                                                </a>
+                                                <a href="img/KHEMANI_RESIDENCE/2.jpg" 
+                                                    data-thumb="img/KHEMANI_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="KHEMANI-RESIDENCE">
+                                                </a>
+                                                <a href="img/KHEMANI_RESIDENCE/3.jpg" 
+                                                    data-thumb="img/KHEMANI_RESIDENCE/3.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="KHEMANI-RESIDENCE">
+                                                </a>
+                                                <a href="img/KHEMANI_RESIDENCE/4.jpg" 
+                                                    data-thumb="img/KHEMANI_RESIDENCE/4.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KHEMANI-RESIDENCE">
+                                                </a>
+                                                 <a href="img/KHEMANI_RESIDENCE/5.jpg" 
+                                                    data-thumb="img/KHEMANI_RESIDENCE/5.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KHEMANI-RESIDENCE">
+                                                </a>
+                                                <a href="img/KHEMANI_RESIDENCE/6.jpg" 
+                                                    data-thumb="img/KHEMANI_RESIDENCE/6.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KHEMANI-RESIDENCE">
+                                                </a>
+                                                <a href="img/KHEMANI_RESIDENCE/7.jpg" 
+                                                    data-thumb="img/KHEMANI_RESIDENCE/7.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KHEMANI-RESIDENCE">
+                                                </a>
+                                                <a href="img/KHEMANI_RESIDENCE/8.jpg" 
+                                                    data-thumb="img/KHEMANI_RESIDENCE/8.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KHEMANI-RESIDENCE">
+                                                </a>
+                                                <a href="img/KHEMANI_RESIDENCE/9.jpg" 
+                                                    data-thumb="img/KHEMANI_RESIDENCE/9.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KHEMANI-RESIDENCE">
+                                                </a>                                             
+                                        </div>
                                     </div>
                                     <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/3.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KHEMANI RESIDENCE/3.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
+                                        <div class="work-card">
+                                            <img src="img/KP_RESIDENCE_7TH/1.jpg" 
+                                                alt="pendse yash architechture + design">
+                                                <a href="img/KP_RESIDENCE_7TH/1.jpg" 
+                                                    title="zoom" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/1.jpg"
+                                                    data-caption="A door-way to your dream day"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                    <div class="work-card-overlay">
+                                                        <h3 class="work-card-title">TITLE</h3>
+                                                        <h4>The KP Residence</h4>
+                                                        <h3 class="work-card-title">CATEGORY</h3>
+                                                        <h4>Residential</h4>
+                                                        <h3 class="work-card-title">LOCATION</h3>
+                                                        <h4>Mumbai</h4>
+                                                        <h3 class="work-card-title">STYLE</h3>
+                                                        <h4>Contemporary</h4>
+                                                    </div>
+                                                </a>
+                                                <a href="img/KP_RESIDENCE_7TH/2.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/3.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/3.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/4.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/4.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/5.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/5.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/6.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/6.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/7.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/7.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/8.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/8.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/9.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/9.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/10.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/10.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/11.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/11.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/12.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/12.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                <a href="img/KP_RESIDENCE_7TH/13.jpg" 
+                                                    data-thumb="img/KP_RESIDENCE_7TH/13.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="KP-RESIDENCE">
+                                                </a>
+                                               
+                                        </div>
                                     </div>
                                     <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/4.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KHEMANI RESIDENCE/4.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
+                                        <div class="work-card">
+                                            <img src="img/MAHATRE_RESIDENCE_5TH/4.jpg" 
+                                                alt="pendse yash architechture + design">
+                                                <a href="img/MAHATRE_RESIDENCE_5TH/4.jpg" 
+                                                    title="zoom" 
+                                                    data-thumb="img/MAHATRE_RESIDENCE_5TH/4.jpg"
+                                                    data-caption="A door-way to your dream day"
+                                                    data-fancybox="MAHATRE-RESIDENCE">
+                                                    <div class="work-card-overlay">
+                                                        <h3 class="work-card-title">TITLE</h3>
+                                                        <h4>The Mahatre Residence</h4>
+                                                        <h3 class="work-card-title">CATEGORY</h3>
+                                                        <h4>Residential</h4>
+                                                        <h3 class="work-card-title">LOCATION</h3>
+                                                        <h4>Mumbai</h4>
+                                                        <h3 class="work-card-title">STYLE</h3>
+                                                        <h4>Contemporary</h4>
+                                                    </div>
+                                                </a>
+                                                <a href="img/MAHATRE_RESIDENCE_5TH/2.jpg" 
+                                                    data-thumb="img/MAHATRE_RESIDENCE_5TH/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="MAHATRE-RESIDENCE">
+                                                <a href="img/MAHATRE_RESIDENCE_5TH/3.jpg" 
+                                                    data-thumb="img/MAHATRE_RESIDENCE_5TH/3.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="MAHATRE-RESIDENCE">
+                                                <a href="img/MAHATRE_RESIDENCE_5TH/1.jpg" 
+                                                    data-thumb="img/MAHATRE_RESIDENCE_5TH/1.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="MAHATRE-RESIDENCE">
+                                                <a href="img/MAHATRE_RESIDENCE_5TH/5.jpg" 
+                                                    data-thumb="img/MAHATRE_RESIDENCE_5TH/5.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="MAHATRE-RESIDENCE">
+                                                <a href="img/MAHATRE_RESIDENCE_5TH/6.jpg" 
+                                                    data-thumb="img/MAHATRE_RESIDENCE_5TH/6.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="MAHATRE-RESIDENCE">
+                                                <a href="img/MAHATRE_RESIDENCE_5TH/7.jpg" 
+                                                    data-thumb="img/MAHATRE_RESIDENCE_5TH/7.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="MAHATRE-RESIDENCE">
+                                                <a href="img/MAHATRE_RESIDENCE_5TH/8.jpg" 
+                                                    data-thumb="img/MAHATRE_RESIDENCE_5TH/8.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="MAHATRE-RESIDENCE">
+                                                </a>
+                                        </div>
                                     </div>  
                                     <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/5.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KHEMANI RESIDENCE/5.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/6.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KHEMANI RESIDENCE/6.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/7.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KHEMANI RESIDENCE/7.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/8.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KHEMANI RESIDENCE/8.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KHEMANI RESIDENCE/9.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KHEMANI RESIDENCE/9.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/1.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/2.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/2.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/3.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/3.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/4.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/4.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/5.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/5.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/6.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/6.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/7.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/7.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/8.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/8.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/9.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/9.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/10.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/10.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/11.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/11.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/12.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/12.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/KP RESIDENCE 7TH/13.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/13.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <!-- <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <video src="img/KP RESIDENCE 7TH/IMG_3358.mov" alt="Image" class="img-fluid tm-img"></video>
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/KP RESIDENCE 7TH/IMG_3358.mov">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div> -->
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/MAHATRE RESIDENCE 5TH/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/1.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/MAHATRE RESIDENCE 5TH/2.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/2.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/MAHATRE RESIDENCE 5TH/3.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/3.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/MAHATRE RESIDENCE 5TH/4.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/4.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/MAHATRE RESIDENCE 5TH/5.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/5.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/MAHATRE RESIDENCE 5TH/6.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/6.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/MAHATRE RESIDENCE 5TH/7.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/7.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/MAHATRE RESIDENCE 5TH/8.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/8.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <!-- <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <video src="img/MAHATRE RESIDENCE 5TH/IMG_1505.MOV" alt="Image" class="img-fluid tm-img"></video>
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/MAHATRE RESIDENCE 5TH/IMG_1505.MOV">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div> -->
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/1.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/2.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/2.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/3.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/3.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/4.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/4.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/5.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/5.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/6.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/6.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/7.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/7.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/8.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/8.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/9.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/9.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHANSE RESIDENCE/10.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHANSE RESIDENCE/10.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/1.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/2.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/2.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/3.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/3.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/4.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/4.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/5.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/5.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/6.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/6.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/7.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/7.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/8.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/8.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/9.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/9.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/PHATAK RESIDENCE 9TH/10.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/10.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <!-- <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <video src="img/PHATAK RESIDENCE 9TH/11.mov" alt="Image" class="img-fluid tm-img"></video>
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/11.mov">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <video src="img/PHATAK RESIDENCE 9TH/12.mov" alt="Image" class="img-fluid tm-img"></video>
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/12.mov">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div> -->
-                                    <!-- <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <video src="img/PHATAK RESIDENCE 9TH/13.mov" alt="Image" class="img-fluid tm-img"></video>
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/PHATAK RESIDENCE 9TH/13.mov">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div> -->
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/1.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/2.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/2.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/3.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/3.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/4.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/4.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/5.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/5.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/6.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/6.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/7.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/7.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/8.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/8.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>                
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/9.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/9.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/10.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/10.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/11.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/11.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/12.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/12.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/13.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/13.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/14.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/14.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/15.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/15.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/16.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/16.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/17.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/17.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/18.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/18.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/19.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/19.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/20.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/20.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/21.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/21.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/22.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/22.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/24.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/24.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/WADA/25.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Seven</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/WADA/25.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/CHURI RESIDENCE/1.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>One</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/CHURI RESIDENCE/1.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/CHURI RESIDENCE/2.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Two</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/CHURI RESIDENCE/2.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/CHURI RESIDENCE/3.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Three</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/CHURI RESIDENCE/3.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/CHURI RESIDENCE/4.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Four</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/CHURI RESIDENCE/4.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/CHURI RESIDENCE/5.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Five</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/CHURI RESIDENCE/5.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="grid-item">
-                                        <figure class="effect-bubba">
-                                            <img src="img/CHURI RESIDENCE/6.jpg" alt="Image" class="img-fluid tm-img">
-                                            <figcaption>
-                                                <h2 class="tm-figure-title">Image <span>Six</span></h2>
-                                                <p class="tm-figure-description"></p>
-                                                <a href="img/CHURI RESIDENCE/6.jpg">View more</a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
+                                        <div class="work-card">
+                                            <img src="img/PHANSE_RESIDENCE/1.jpg" 
+                                                alt="pendse yash architechture + design">
+                                                <a href="img/PHANSE_RESIDENCE/1.jpg" 
+                                                    title="zoom" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/1.jpg"
+                                                    data-caption="A door-way to your dream day"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                    <div class="work-card-overlay">
+                                                        <h3 class="work-card-title">TITLE</h3>
+                                                        <h4>The Phanse Residence</h4>
+                                                        <h3 class="work-card-title">CATEGORY</h3>
+                                                        <h4>Residential</h4>
+                                                        <h3 class="work-card-title">LOCATION</h3>
+                                                        <h4>Mumbai</h4>
+                                                        <h3 class="work-card-title">STYLE</h3>
+                                                        <h4>Contemporary</h4>
+                                                    </div>
+                                                </a>
+                                                <a href="img/PHANSE_RESIDENCE/2.jpg" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                <a href="img/PHANSE_RESIDENCE/3.jpg" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                <a href="img/PHANSE_RESIDENCE/4.jpg" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                <a href="img/PHANSE_RESIDENCE/5.jpg" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                <a href="img/PHANSE_RESIDENCE/6.jpg" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                <a href="img/PHANSE_RESIDENCE/7.jpg" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                <a href="img/PHANSE_RESIDENCE/8.jpg" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                <a href="img/PHANSE_RESIDENCE/9.jpg" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                <a href="img/PHANSE_RESIDENCE/10.jpg" 
+                                                    data-thumb="img/PHANSE_RESIDENCE/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHANSE-RESIDENCE">
+                                                </a>
+                                               
+                                        </div>
+                                    </div>
+                                    <div class="grid-item">
+                                        <div class="work-card">
+                                            <img src="img/PHATAK_RESIDENCE_9TH/7.jpg" 
+                                                alt="pendse yash architechture + design">
+                                                <a href="img/PHATAK_RESIDENCE_9TH/7.jpg" 
+                                                    title="zoom" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/7.jpg"
+                                                    data-caption="A door-way to your dream day"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                    <div class="work-card-overlay">
+                                                        <h3 class="work-card-title">TITLE</h3>
+                                                        <h4>The Phatak Residence</h4>
+                                                        <h3 class="work-card-title">CATEGORY</h3>
+                                                        <h4>Residential</h4>
+                                                        <h3 class="work-card-title">LOCATION</h3>
+                                                        <h4>Mumbai</h4>
+                                                        <h3 class="work-card-title">STYLE</h3>
+                                                        <h4>Contemporary</h4>
+                                                    </div>
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/2.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/2.jpg"
+                                                    data-caption="shiny globes and chimy bells"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                <a href="img/PHATAK_RESIDENCE_9TH/3.jpg"
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/3.jpg"
+                                                    data-caption="Hasari pangat"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                <a href="img/PHATAK_RESIDENCE_9TH/4.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/4.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/5.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/5.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/6.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/6.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/1.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/1.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/8.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/8.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/9.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/9.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/10.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/10.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/11.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/11.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/12.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/12.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                                <a href="img/PHATAK_RESIDENCE_9TH/13.jpg" 
+                                                    data-thumb="img/PHATAK_RESIDENCE_9TH/13.jpg"
+                                                    data-caption="Bling it on baby"
+                                                    data-fancybox="PHATAK-RESIDENCE">
+                                                </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item">
+                                        <div class="work-card">
+                                            <img src="img/WADA/8.jpg" 
+                                            alt="pendse yash architechture + design">
+                                            <a href="img/WADA/8.jpg" 
+                                                title="zoom" 
+                                                data-thumb="img/WADA/8.jpg"
+                                                data-caption="A door-way to your dream day"
+                                                data-fancybox="WADA">
+                                                <div class="work-card-overlay">
+                                                    <h3 class="work-card-title">TITLE</h3>
+                                                    <h4>Villa Project</h4>
+                                                    <h3 class="work-card-title">CATEGORY</h3>
+                                                    <h4>Residential</h4>
+                                                    <h3 class="work-card-title">LOCATION</h3>
+                                                    <h4>Wada, Maharashtra</h4>
+                                                    <h3 class="work-card-title">STYLE</h3>
+                                                    <h4>Contemporary</h4>
+                                                </div>
+                                            </a>
+                                            <a href="img/WADA/2.jpg" 
+                                                data-thumb="img/WADA/2.jpg"
+                                                data-caption="shiny globes and chimy bells"
+                                                data-fancybox="WADA">
+                                            <a href="img/WADA/3.jpg"
+                                                data-thumb="img/WADA/3.jpg"
+                                                data-caption="Hasari pangat"
+                                                data-fancybox="WADA">
+                                            <a href="img/WADA/4.jpg" 
+                                                data-thumb="img/WADA/4.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/5.jpg" 
+                                                data-thumb="img/WADA/5.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/6.jpg" 
+                                                data-thumb="img/WADA/6.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/7.jpg" 
+                                                data-thumb="img/WADA/7.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/8.jpg" 
+                                                data-thumb="img/WADA/8.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/9.jpg" 
+                                                data-thumb="img/WADA/9.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/10.jpg" 
+                                                data-thumb="img/WADA/10.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/11.jpg" 
+                                                data-thumb="img/WADA/11.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/12.jpg" 
+                                                data-thumb="img/WADA/12.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/13.jpg" 
+                                                data-thumb="img/WADA/13.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/14.jpg" 
+                                                data-thumb="img/WADA/14.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/15.jpg" 
+                                                data-thumb="img/WADA/15.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/16.jpg" 
+                                                data-thumb="img/WADA/16.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/17.jpg" 
+                                                data-thumb="img/WADA/17.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/18.jpg" 
+                                                data-thumb="img/WADA/18.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/19.jpg" 
+                                                data-thumb="img/WADA/19.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/20.jpg" 
+                                                data-thumb="img/WADA/20.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/21.jpg" 
+                                                data-thumb="img/WADA/21.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/22.jpg" 
+                                                data-thumb="img/WADA/22.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/23.jpg" 
+                                                data-thumb="img/WADA/12.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/24.jpg" 
+                                                data-thumb="img/WADA/24.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>
+                                            <a href="img/WADA/25.jpg" 
+                                                data-thumb="img/WADA/25.jpg"
+                                                data-caption="Bling it on baby"
+                                                data-fancybox="WADA">
+                                            </a>                                               
+                                        </div>
+                                    </div>                                    
                                 </div>                                 
                             </div>
                         </div>                      
@@ -1061,15 +729,14 @@
                                 <div class="col-xs-12">
                                     <div class="tm-flex">
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding">
-                                            <h2 class="tm-text-title">About our team</h2>
-                                            <p class="tm-text">Welcome to pendse yash architecture and design!</p>
-                                            <p class="tm-text">We are a premier interior design, remodeling, and renovation company dedicated to transforming homes, farmhouses, and offices into captivating spaces that reflect our clients' unique style and vision. With years of experience in the industry, we have built a solid reputation for delivering exceptional craftsmanship and creating inspiring environments.</p>
-                                            <p>At pendse yash architecture and design, we understand that your space is more than just bricks and mortar. It's where memories are made, ideas are born, and dreams come to life. Our passionate team of architects, designers, and craftsmen collaborate closely with you to understand your aspirations and bring your vision to reality. Whether it's a complete home renovation, a farmhouse makeover, or an office revamp, we are committed to delivering unparalleled quality and exceeding your expectations.</p>
-                                            <p>What sets us apart is our unwavering dedication to craftsmanship and attention to detail. We believe that every corner, every texture, and every element contributes to the overall ambiance of a space. From selecting the finest materials to incorporating innovative design solutions, we strive for perfection in every project we undertake. Our skilled professionals take pride in their work and go the extra mile to ensure that every aspect of your project is executed with precision and finesse.</p>
-                                            <p>Client satisfaction is at the heart of everything we do. We believe in open communication and collaboration, working closely with you at every step of the journey. Your input, ideas, and feedback are invaluable to us as we aim to create a space that truly reflects your personality and fulfills your needs. We treat every project as a unique opportunity to create something extraordinary, tailoring our services to your specific requirements.</p>
-                                            <p>We invite you to explore our portfolio, showcasing our diverse range of successful projects and the transformational impact we have made on countless spaces. Whether you're seeking modern elegance, rustic charm, or a blend of different styles, we have the expertise and creativity to bring your vision to life.</p>
-                                            <p>Thank you for considering pendse yash architecture and design for your interior design, remodeling, and renovation needs. We look forward to partnering with you to create the space of your dreams.</p>
-                                            <p>Get in touch with us today and let's embark on a journey of transforming your space into something truly remarkable!</p>
+                                            <p class="tm-text">Welcome to PYAD,</p>
+                                            <p class="tm-text">We are a team of passionate architects and designers committed to creating exceptional architectural experiences. With our expertise in architecture, design, orientation, and execution, we offer a foolproof approach to every aspect of our projects.</p>
+                                            <p class="tm-text">Our primary goal is to go beyond conventional boundaries and build untraveled experiences within the spaces we design. We believe that architecture should not only serve its purpose but also inspire and engage its users. By focusing on innovative concepts that enhance movement and interaction, we create spaces that leave a lasting impact.</p>
+                                            <p class="tm-text">Transparency is at the core of our values. We believe in maintaining open communication with our clients throughout the entire project lifecycle. We provide 100% transparency when it comes to the quality of our work, ensuring that our clients have complete confidence in the final deliverables. Your trust is important to us, and we strive to exceed your expectations.</p>
+                                            <p class="tm-text">At PYAD, we cater to all aspects of architecture. From conceptualization to construction management and post-occupancy evaluations, we provide a comprehensive range of services. Our holistic approach ensures that your project receives the attention it deserves from start to finish. We are your one-stop solution for all your architectural needs.</p>
+                                            <p class="tm-text">We firmly believe that functional design and well-composed material selection contribute to an exceptional encounter with architecture. Every detail matters to us, and we meticulously craft designs that are both visually stunning and purposeful. By carefully considering the interplay of materials, we create harmonious spaces that resonate with their surroundings.</p>
+                                            <p class="tm-text">We invite you to explore our portfolio to see examples of our work and the unique experiences we have created.</p>
+                                            <p class="tm-text">Welcome to PYAD, where we redefine architecture through untraveled experiences.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1122,33 +789,12 @@
                                     <div class="col-xs-12">
                                         <div class="tm-flex tm-contact-container">                                
                                             <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
-                                                <h2 class="tm-contact-info">Say hello to us!</h2>
-                                                <p class="tm-text">Studio 04, Ground Floor, VijayVihar, Aarey Road, Goregaon East, Mumbai - 400063, Maharashtra, India</p>                                                
-                                                
-                                                <!-- contact form -->
-                                                <!-- <form action="index.html" method="post" class="tm-contact-form">
-
-                                                    <div class="form-group">
-                                                        <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
-                                                    </div>
-                                        
-                                                    <div class="form-group">                                                        
-                                                        <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
-                                                    </div>                                                        
-                                                    
-                                                    <div class="form-group">
-                                                        <textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Your message" required></textarea>
-                                                    </div> 
-
-                                                    <button type="submit" class="pull-xs-right tm-submit-btn">Send</button>  
-                                                
-                                                </form>   -->
-                                                <img class="contact-qr" src="img/Icon_logo/insta_qr">
-                                                <img class="contact-qr" src="img/Icon_logo/whatsapp_qr.png" alt="">
-                                            </div>
+                                                <h2 class="tm-contact-info">Visit us: <br>Studio 04, Ground Floor, VijayVihar, Aarey Road, Goregaon East, Mumbai - 400063, Maharashtra, India</h2><br>
+                                                <h2 class="tm-contact-info">Reach out to Yash Pendse:<br> +91 - 9833862678</h2>                                                
+                                             </div>
 
                                             <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
-                                                <h2 class="tm-contact-info"></h2>
+                                               
                                                 <!-- google map goes here -->
                                                 <div id="google-map"></div>
                                             </div>
@@ -1170,10 +816,9 @@
             <footer class="tm-footer">
             
                 <div class="tm-social-icons-container text-xs-center">
-                    <a href="https://www.facebook.com/pages/PendseYash-Architechture-Design/104175658026462/" class="tm-social-link"><i class="fa fa-facebook"></i></a>
                     <a href="https://www.instagram.com/pyad.in/" class="tm-social-link"><i class="fa fa-instagram"></i></a>
-                    <a href="https://wa.me/919833862678?text=Hello,%20I%20am%20interested%20in%20your%20services!" class="tm-social-link"><i class="fa fa-whatsapp"></i></a>
-                    <a href="mailto:pyarchidesign@gmail.com" class="tm-social-link"><i class="fa fa-envelope"></i></a>
+                    <a href="https://wa.me/919833862678?text=Hello!" class="tm-social-link"><i class="fa fa-whatsapp"></i></a>
+                    <a href="mailto:pendseyash@hotmail.com" class="tm-social-link"><i class="fa fa-envelope"></i></a>
                 </div>                
                 <!-- <p class="tm-copyright-text">Copyright &copy; 2017 Your Company 
                 
@@ -1195,10 +840,18 @@
         
         <!-- load JS files -->
         <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+         <!-- slick slider -->
+        <script src="./slick/slick.min.js"></script>
         <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
         <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
         <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
         <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) --> 
+            <!-- fancybox -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+        <!-- custom js
+        <script src="./js/main.js"></script> -->
         <script>
 
             function adjustHeightOfPage(pageNo) {
@@ -1253,11 +906,11 @@
 				
 				/* Gallery Two pop up
                 -----------------------------------------*/
-				$('.gallery-two').magnificPopup({
-                    delegate: 'a',
-                    type: 'image',
-                    gallery:{enabled:true}                
-                });
+				// $('.gallery-two').magnificPopup({
+                //     delegate: 'a',
+                //     type: 'image',
+                //     gallery:{enabled:true}                
+                // });
 
                 /* Gallery Three pop up
                 -----------------------------------------*/
@@ -1354,7 +1007,31 @@
             // Call the function initially and whenever the window is resized
             updateSlidesPerView();
             window.addEventListener('resize', updateSlidesPerView);
-        </script>            
+        </script>   
+        
+        <script>
+            // $('[data-fancybox]').fancybox({
+            //     thumbs : {
+            //         autoStart : true,
+            //         axis: "y"
+            //     },
+            //     smallBtn : true,
+            //     buttons: [
+            //         "zoom",
+            //         "slideShow",
+            //         "thumbs",
+            //         "close"
+            //     ],
+            // });
+    
+            $('[data-fancybox]').fancybox({
+                thumbs : {
+                    autoStart : true,
+                    axis: "y"
+                },
+                loop: false,
+            });
+        </script>
 
 </body>
 </html>
