@@ -1,0 +1,255 @@
+/*
+Template Name: Uno
+Template URL: https://www.codesymbol.com/templates/uno/demo/
+Version: 2.0
+Author: CodeSymbol
+Author URL: https://themeforest.net/user/codesymbol/
+*/
+
+
+
+/*
+================================================================
+================================================================
+    Background Colors
+================================================================
+================================================================
+*/
+
+    body,
+    .preloader,
+    figure figcaption,
+    header.showNav,
+    .mfp-image-holder .mfp-close,
+    .mfp-iframe-holder .mfp-close,
+    .mfp-container .arrow-left,
+    .mfp-container .arrow-right,
+    .flexslider:not(.gallery) .prev,
+    .flexslider:not(.gallery) .next,
+    .flexslider.full li .image-caption,
+    .team-member::before,
+    .portfolio.horizontal-slider article::before,
+    .portfolio.horizontal-slider article .overlay::before,
+    .portfolio.grid article .article-wrapper::before,
+    .portfolio.grid article .overlay::before,
+    .project .cover.image .overlay::before,
+    .project .cover.slider .overlay::before,
+    .project .projects-navigation .previous,
+    .project .projects-navigation .next,
+    .project .projects-navigation .portfolio-page,
+    .project .recent-projects article a::before,
+    .project .recent-projects .overlay,
+    .project.style-1 figure a::before,
+    .gallery.horizontal-slider figure a::before,
+    .gallery.grid figure a::before,
+    .gallery.slideshow.kenburns #slideshow .slide-caption,
+    .gallery.slideshow.flexslider .prev,
+    .gallery.slideshow.flexslider .next,
+    .landing-slideshow::before,
+    .landing-strips .strips .column::after,
+    .blog .posts article figure a::before,
+    .blog.has-sidebar .sidebar .widget_media_gallery .gallery-icon a::after {
+        background-color: #fff;
+    }
+    .page-about-me.small .wrapper {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .landing-strips-pages .strips .column a {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    .landing-strips-pages .strips .column a:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    header .menu-icon span,
+    header:not(.showNav) > nav > ul > li.mega-menu > ul > li li:hover::before,
+    .gallery.slideshow.vertical-nav.flexslider .nav .bullets .line::after,
+    .gallery.slideshow.horizontal-nav.flexslider .nav .bullets .line::after,
+    .gallery.slideshow.flexslider .nav .bullets div.active,
+    .gallery.slideshow.flexslider .nav .bullets div:hover,
+    .contact-form input[type="submit"],
+    .contact-form input[type="submit"]:hover,
+    .blog-single .head .meta > div::after {
+        background-color: #000;
+    }
+
+    main {
+        background-color: #f2f2f2;
+    }
+
+    header:not(.showNav) > nav > ul > li:not(.mega-menu) li,
+    header:not(.showNav) > nav > ul > li.mega-menu > ul {
+        background-color: #e8e8e8;
+    }
+
+    header > nav > ul > li.mega-menu > ul > li li::before {
+        background-color: #959595;
+    }
+
+    .gallery.slideshow.flexslider .nav .bullets div {
+        background-color: #555;
+    }
+
+    
+    .mfp-bg.mfp-with-zoom.mfp-ready {
+        background: #d5d5d5;
+    }
+
+    ::selection,
+    ::-moz-selection {
+        background-color: #333;
+    }
+
+    @media only screen and (max-width : 768px) {
+
+        .landing-strips-pages .strips .column a {
+            background-color: #fff;
+        }
+    }
+
+/*
+================================================================
+================================================================
+    Font Colors
+================================================================
+================================================================
+*/
+
+    body,
+    .mfp-title {
+        color: #333;
+    }
+
+    a,
+    h1, h2, h3, h4, h5, h6,
+    .preloader p,
+    header:not(.showNav) > nav > ul li:hover > a,
+    header:not(.showNav) > nav > ul > li:not(.mega-menu) li.menu-item-has-children:hover::before,
+    header > nav > ul > li a.active,
+    footer .social-links ul li a:hover,
+    .mfp-image-holder .mfp-close,
+    .mfp-iframe-holder .mfp-close,
+    .mfp-container .arrow-left,
+    .mfp-container .arrow-right,
+    .info-label .label,
+    .flexslider:not(.gallery) .prev,
+    .flexslider:not(.gallery) .next,
+    .team-member .overlay .name,
+    .portfolio.grid .filters p,
+    .portfolio.grid .filters span.active,
+    .portfolio.grid .filters span:hover,
+    .project.style-1 .info .info-box .label,
+    .project.style-1 .info .share a:hover,
+    .gallery.grid .filters p,
+    .gallery.grid .filters span.active,
+    .gallery.grid .filters span:hover,
+    .gallery.slideshow.flexslider .prev,
+    .gallery.slideshow.flexslider .next,
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea,
+    .blog .posts article .read-more,
+    .blog.has-sidebar .sidebar .widget_search input[type="text"] {
+        color: #000;
+    }
+
+    .contact-form input[type="submit"]:hover,
+    .contact-form input[type="submit"] {
+        color: #fff;
+    }
+
+    header a,
+    footer .social-links ul li a,
+    .team-member .overlay .title,
+    .project.style-1 .info .share a {
+        color: #424242;
+    }
+
+    .portfolio.horizontal-slider article .overlay .categories,
+    .portfolio.grid article .overlay .categories,
+    .project .cover .overlay .categories {
+        color: #7b7b7b;
+    }
+
+    .portfolio.grid .filters span,
+    .gallery.grid .filters span {
+        color: #777;
+    }
+
+    .project .projects-navigation .dimmed {
+        color: #737373;
+    }
+
+    ::selection,
+    ::-moz-selection {
+        color: #fff;
+    }
+
+    form input::-webkit-input-placeholder,
+    form textarea::-webkit-input-placeholder {
+        color: #333;
+    }
+    form input::-moz-placeholder,
+    form textarea::-moz-placeholder {
+        color: #333;
+    }
+    form input:-ms-input-placeholder,
+    form textarea:-ms-input-placeholder {
+        color: #333;
+    }
+
+    @media only screen and (max-width : 1280px) {
+
+        header a,
+        header.showNav > nav > ul > li > a {
+            color: #000;
+        }
+    }
+
+
+/*
+================================================================
+================================================================
+    Border Colors
+================================================================
+================================================================
+*/
+
+    .preloader .circle {
+        border-color: #000;
+        border-right-color: transparent;
+    }
+    .contact-form input[type="text"]:hover,
+    .contact-form input[type="email"]:hover,
+    .contact-form textarea:hover,
+    .contact-form input[type="text"]:focus,
+    .contact-form input[type="email"]:focus,
+    .contact-form textarea:focus,
+    .blog.has-sidebar .sidebar .widget_search input[type="text"]:hover,
+    .blog.has-sidebar .sidebar .widget_search input[type="text"]:hover {
+        border-color: #000;
+    }
+
+    header > nav > ul > li.mega-menu > ul h2 {
+        border-color: #a8a8a8;
+    }
+
+    .project .projects-navigation {
+        border-color: #0d0d0d;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea,
+    .blog.has-sidebar .sidebar .widget_search input[type="text"] {
+        border-color: #393939;
+    }
+
+
+/*
+================================================================
+================================================================
+    Opacity
+================================================================
+================================================================
+*/

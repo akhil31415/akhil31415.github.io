@@ -31,17 +31,27 @@ http://www.tooplate.com/view/2086-multi-color
 		 url('../font/BondoluoPeek.svg#effrabold') format('svg');
 }
 
+@font-face {
+	font-family: 'roboto_mono';
+	src: url('../font/Roboto_Mono/RobotoMono-VariableFont_wght.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'roboto_mono_italic';
+	src: url('../font/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf')  format('truetype');
+}
+
 body {
 	background-color: black;
 	color: white;
-	font-family: 'effra', Arial;
+	font-family: 'roboto_mono', Arial;
 	font-size: 17px;
 	font-weight: 300;
 	overflow-x: hidden;
 }
 
 h1 h2 h3 h4 h5 h6 {
-	font-family: 'effra_bold', 'effra';
+	font-family: 'roboto_mono', Arial;
 }
 
 .tm-white { color: black; }
@@ -344,13 +354,13 @@ textarea { height: 168px; }
    Author's custom styles
    ========================================================================== */
    #loader-wrapper { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 2000; }
-   #loader { display: block; position: relative; left: 50%; top: 50%; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%; border: 3px solid transparent; border-top-color: #3498db; /* Chrome, Opera 15+, Safari 5+ */
+   #loader { display: block; position: relative; left: 50%; top: 50%; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%; border: 3px solid transparent; border-top-color: #393939; /* Chrome, Opera 15+, Safari 5+ */
    	animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */ z-index: 2001; }
    #loader:before { content: ""; position: absolute; top: 5px; left: 5px; right: 5px; bottom: 5px; border-radius: 50%; border: 3px solid transparent;
-   	border-top-color: #e74c3c; /* Chrome, Opera 15+, Safari 5+ */
+   	border-top-color: #c4c4c4; /* Chrome, Opera 15+, Safari 5+ */
    animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */ }
    #loader:after { content: ""; position: absolute; top: 15px; left: 15px; right: 15px; bottom: 15px; border-radius: 50%; border: 3px solid transparent;
-border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */ }
+border-top-color: #ffffff; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */ }
 @keyframes spin {
 	0%   {  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
 		transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
@@ -448,7 +458,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 /* .grid-item:last-child { margin-bottom: 0; } */
 
 .tm-img-gallery-container {
-	max-width: 320px;
+	max-width: 100%;
     margin: 0;
 }
 
@@ -688,7 +698,7 @@ figure.effect-bubba:hover p {
 
 /*.tm-pad-t { padding-top: 40px; }*/
 .tm-white-box-margin-b { margin-bottom: 30px; }
-.grid-item { max-width: 340px; }
+.grid-item { max-width: 370px; }
 /*.tm-img-gallery-container-2 { max-width: 453px; }*/
 .tm-gallery-title span { width: 100%; }
 
@@ -991,7 +1001,7 @@ swiper-slide img {
 
 .work-card{
     position:relative;
-    margin-right:25px;
+    margin-right:0;
     text-align:center
 }
 .work-card a{
@@ -1083,12 +1093,12 @@ swiper-slide img {
 		bottom:0;
 		left:0;
 		right:0;
-		height:50%;
+		height:32%;
 		opacity: 1;
 		/* transition:height .4s */
 		position:absolute;
-        background-color:rgba(0,0,0,.8);
-		font-size: small;
+        background-color:rgba(0,0,0,.4);
+		font-size: 10px;
 	}
 
 }
@@ -1096,7 +1106,7 @@ swiper-slide img {
 @media (max-width:768px){
 
     .work-card .work-card-overlay .work-card-title{
-        font-size:14px
+        font-size:1px
     }   
 }
 
