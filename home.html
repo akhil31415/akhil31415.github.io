@@ -776,13 +776,13 @@
                                         <div class="tm-flex tm-contact-container">                                
                                             <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
                                                 <h2 class="tm-contact-info">Visit us: <br>Studio 04, Ground Floor, VijayVihar, Aarey Road, Goregaon East, Mumbai - 400063, Maharashtra, India</h2><br>
-                                                <h2 class="tm-contact-info">Reach out to Yash Pendse:<br> +91 - 9833862678</h2>                                                
+                                                <h2 class="tm-contact-info">Reach out to us at:<br> +91 - 9833862678</h2>                                                
                                              </div>
 
                                             <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
                                                
                                                 <!-- google map goes here -->
-                                                <div id="google-map"></div>
+                                                <div id="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.663760786289!2d72.8541484750297!3d19.166190082057124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7adcd829675%3A0xd1dcf656ba131769!2sVijay%20Vihar%20Apartment%2C%20Aarey%20Rd%2C%20Shreyas%20Colony%2C%20Jay%20Prakash%20Nagar%2C%20Goregaon%2C%20Mumbai%2C%20Maharashtra%20400063!5e0!3m2!1sen!2sin!4v1685901719421!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                                             </div>
 
                                         </div>
@@ -958,17 +958,17 @@
                 center = map.getCenter();
             }
 
-            function loadGoogleMap(){
-                var script = document.createElement('script');
-                script.type = 'text/javascript';
-                script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
-                document.body.appendChild(script);
-            }
+            // function loadGoogleMap(){
+            //     var script = document.createElement('script');
+            //     script.type = 'text/javascript';
+            //     script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+            //     document.body.appendChild(script);
+            // }
         
             // DOM is ready
-            $(function() {                
-                loadGoogleMap(); // Google Map
-            });
+            // $(function() {                
+            //     loadGoogleMap(); // Google Map
+            // });
 
             // changeing slides per view depending on screen size
             var swiper = new Swiper('swiper-container', {

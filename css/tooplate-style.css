@@ -936,7 +936,7 @@ figure.effect-bubba:hover p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.tm-2-col-textbox-2 { margin-right: 15px; }
-	#google-map { height: 520px; }
+	#google-map { height: 520px;}
 	.tm-brand-icon {font-size: 4rem; }
 	.cd-slider-nav a.navbar-brand { font-size: 1rem; width: 18%;}
 
