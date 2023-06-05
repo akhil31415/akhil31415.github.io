@@ -116,7 +116,7 @@ a:focus {
 	    justify-content: space-between;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 1);
 	overflow: auto;
 }
 
@@ -250,7 +250,7 @@ button:focus { outline: none; }
 
 /* footer */
 .tm-social-link {
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0);
     color: white;
     display: inline-block;
     width: 35px;
@@ -945,6 +945,7 @@ figure.effect-bubba:hover p {
 @media only screen and (min-width: 330px) and (max-width: 480px) {
 	.cd-slider-nav a.navbar-brand { font-size: 1rem; width: 30%;}
 	.cd-slider-nav { position: fixed;}
+	.tm-footer {position: fixed;}
 }
 
 
